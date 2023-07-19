@@ -2,7 +2,7 @@ import streamlit as st
 import cv2
 import os
 from PIL import Image
-from app_funcs import segment_image, segment_video, segment_live_feed, download_success
+from /content/webapp/app_funcs.py import segment_image, segment_video, segment_live_feed, download_success
 
 st.set_page_config(
     page_title="Instance Segmentator",
